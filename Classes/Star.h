@@ -23,7 +23,7 @@ public:
 	inline int getIndexJ(){return index_j;}
 	inline void setIndex_ij(int i,int j){index_i = i;index_j = j;}
 private:
-	char* getImage(int color);
+	std::string getImage(int color);
 
 public:
 	const static int MOVE_SPEED = 4;

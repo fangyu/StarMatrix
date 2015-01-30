@@ -22,8 +22,6 @@
 		46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
-		46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -89,8 +87,6 @@
 		9B3470A21A7B2F4400B787C5 /* StarParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3470811A7B2F4400B787C5 /* StarParticle.cpp */; };
 		9B3470A31A7B2F4400B787C5 /* TopMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3470831A7B2F4400B787C5 /* TopMenu.cpp */; };
 		9B3470A41A7B2F4400B787C5 /* TopMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3470831A7B2F4400B787C5 /* TopMenu.cpp */; };
-		9B3470A51A7B2F4400B787C5 /* XMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3470851A7B2F4400B787C5 /* XMLParser.cpp */; };
-		9B3470A61A7B2F4400B787C5 /* XMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3470851A7B2F4400B787C5 /* XMLParser.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -144,8 +140,6 @@
 		46880B7A19C43A67006E1F66 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
-		46880B8719C43A87006E1F66 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -210,8 +204,6 @@
 		9B3470821A7B2F4400B787C5 /* StarParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarParticle.h; sourceTree = "<group>"; };
 		9B3470831A7B2F4400B787C5 /* TopMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopMenu.cpp; sourceTree = "<group>"; };
 		9B3470841A7B2F4400B787C5 /* TopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenu.h; sourceTree = "<group>"; };
-		9B3470851A7B2F4400B787C5 /* XMLParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLParser.cpp; sourceTree = "<group>"; };
-		9B3470861A7B2F4400B787C5 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -375,12 +367,8 @@
 				9B3470821A7B2F4400B787C5 /* StarParticle.h */,
 				9B3470831A7B2F4400B787C5 /* TopMenu.cpp */,
 				9B3470841A7B2F4400B787C5 /* TopMenu.h */,
-				9B3470851A7B2F4400B787C5 /* XMLParser.cpp */,
-				9B3470861A7B2F4400B787C5 /* XMLParser.h */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
-				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
-				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -586,11 +574,9 @@
 				9B3470A31A7B2F4400B787C5 /* TopMenu.cpp in Sources */,
 				9B34709D1A7B2F4400B787C5 /* Star.cpp in Sources */,
 				9B3470971A7B2F4400B787C5 /* LevelMsgLayer.cpp in Sources */,
-				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				9B3470871A7B2F4400B787C5 /* Audio.cpp in Sources */,
 				9B3470951A7B2F4400B787C5 /* LayerChangeUtil.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
-				9B3470A51A7B2F4400B787C5 /* XMLParser.cpp in Sources */,
 				9B34708B1A7B2F4400B787C5 /* ComboEffect.cpp in Sources */,
 				9B3470911A7B2F4400B787C5 /* GameLayer.cpp in Sources */,
 				9B34708D1A7B2F4400B787C5 /* FloatWord.cpp in Sources */,
@@ -617,13 +603,11 @@
 				9B3470A21A7B2F4400B787C5 /* StarParticle.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				9B34708A1A7B2F4400B787C5 /* Chinese.cpp in Sources */,
-				9B3470A61A7B2F4400B787C5 /* XMLParser.cpp in Sources */,
 				9B34709E1A7B2F4400B787C5 /* Star.cpp in Sources */,
 				9B3470921A7B2F4400B787C5 /* GameLayer.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				9B34708E1A7B2F4400B787C5 /* FloatWord.cpp in Sources */,
 				9B3470A41A7B2F4400B787C5 /* TopMenu.cpp in Sources */,
-				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				9B3470A01A7B2F4400B787C5 /* StarMatrix.cpp in Sources */,
 				9B34709C1A7B2F4400B787C5 /* MenuScene.cpp in Sources */,
 			);

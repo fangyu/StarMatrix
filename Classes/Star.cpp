@@ -2,7 +2,7 @@
 
 Star* Star::create(int color){
 	Star* ret = new Star();
-	if(ret && ret->initWithFile(ret->getImage(color))){
+	if(ret && ret->initWithFile(ret->getImage(color).c_str())){
 		ret->color = color;
 		ret->selected = false;
 		ret->autorelease();
@@ -12,7 +12,7 @@ Star* Star::create(int color){
 	return nullptr;
 }
 
-char* Star::getImage(int color){
+std::string Star::getImage(int color){
 	switch(color){
 	case color::BLUE:
 		return "blue.png";
@@ -24,6 +24,8 @@ char* Star::getImage(int color){
 		return "red.png";
 	case color::PURPLE:
 		return "purple.png";
+    default:
+        return "blue.png";
 	}
 }
 
